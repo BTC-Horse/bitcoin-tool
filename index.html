@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>BTC.horse - Cryptocurrencies portal</title>
+		<title>Tool.BTC.Horse - Bitcoin toolbox</title>
 	    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	    <meta name="keywords" content="bitcoin, wallet, multisig, multisignature, address, browser, javascript, js, broadcast, transaction, verify, decode" />
 	    <meta name="description" content="A generator written in Javascript. Supports Multisig, Custom Transactions, nLockTime and more!" />
@@ -31,8 +31,8 @@
 	    <script type="text/javascript" src="js/coin.js"></script>
 	    <script type="text/javascript" src="js/coinbin.js"></script>
 	    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" media="screen">
-	    <meta name="twitter:title" content="BTC Horse &#x1f40e;">
-		<meta property="og:site_name" content="BTC Horse &#x1f40e;">
+	    <meta name="twitter:title" content="BTC Horse toolbox &#x1f40e;">
+		<meta property="og:site_name" content="BTC Horse toolbox &#x1f40e;">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta property="og:type" content="website">
 		<meta name="description" content="A generator written in Javascript. Supports Multisig, Custom Transactions, nLockTime and more!">
@@ -84,9 +84,6 @@
 	                        <li><a href="#verify" data-toggle="tab"><i class="fa fa-legal" aria-hidden="true"></i> Verify</a></li>
 	                        <li><a href="#sign" data-toggle="tab"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Sign</a></li>
 	                        <li><a href="#broadcast" data-toggle="tab"><i class="fa fa-bolt" aria-hidden="true"></i> Broadcast</a></li>
-	                        <!--<li><a href=""><i class="fa fa-bar-chart" aria-hidden="true"></i> Exchange</a></li>-->
-	                        <li><a href="https://cwallet.pro"><i class="fa fa-briefcase" aria-hidden="true"></i> ETH/TK Wallet</a></li>
-	                        <li><a href="#pools" data-toggle="tab"><i class="fa fa-hdd-o" aria-hidden="true"></i> Pools</a></li>
 	                        <li><a href="#settings" data-toggle="tab"><i class="fa fa-gear" aria-hidden="true"></i> Settings</a></li>
 	                    </ul>
 					</div>
@@ -101,28 +98,26 @@
 					<div class="tab-pane tab-content active" id="home">
 	                    <div class="row">
 	                        <div class="col-md-12">
-	                            <h2>Cryprocurrencies portal <small>Crypto-money and Assets</small></h2>
+	                            <h2>Bitcoin toolbox <small>crypto money</small></h2>
 	                        </div>
 	                    </div>
 	                    <div class="jumbotron">
-	                        <h1>Cryptocurrency horse.</h1>
-	                        <p>Be your own bank, take control of your own money and start using ¢¢!</p>
+	                        <h1>Bitcoin toolbox</h1>
+	                        <p>Bank on yourself! Control your money.</p>
 	                        <p>
-	                        	<!--<a class="btn btn-primary btn-lg" href="" role="button"><i class="fa fa-bar-chart" aria-hidden="true"></i> ETH/TK Exchange</a>-->
-	                        	<a class="btn btn-info btn-lg" href="#pools" role="button"><i class="fa fa-hdd-o" aria-hidden="true"></i> Mining pools</a>
-	                        	<a class="btn btn-info btn-lg" href="https://cwallet.pro" role="button" target="_blank"><i class="fa fa-briefcase" aria-hidden="true"></i> ETH/TK Wallet</a>
-	                        	<a class="btn btn-info btn-lg" href="https://trezor.io?a=3d2a3a212671" role="button" target="_blank"><i class="fa fa-lock" aria-hidden="true"></i> Buy Trezor</a>
+	                        	<a class="btn btn-info btn-lg" href="#newAddress" role="button"><i class="fa fa-briefcase" aria-hidden="true"></i> New wallet</a>
+	                        	<a class="btn btn-info btn-lg" href="https://trezor.io/?a=btc.horse" role="button" target="_blank"><i class="fa fa-lock" aria-hidden="true"></i> Buy Trezor</a>
 	                        </p>
 	                    </div>
 	                    <hr>
 	                    <div class="row">
 	                        <div class="col-md-6">
 	                            <h3><i class="fa fa-rocket" aria-hidden="true"></i> What are cryptocurrencies?</h3>
-	                            <p>A cryptocurrency is a digital asset designed to work as a medium of exchange using cryptography to secure the transactions and to control the creation of additional units of the currency. Be safe and <a href="https://trezor.io?a=3d2a3a212671" target="_blank">buy Trezor device</a> to protect your coins.</p>
+	                            <p>A cryptocurrency is a digital asset designed to work as a medium of exchange using cryptography to secure the transactions and to control the creation of additional units of the currency. Be safe and <a href="https://trezor.io/?a=btc.horse" target="_blank">buy Trezor device</a> to protect your coins.</p>
 	                        </div>
 	                        <div class="col-md-6">
 	                            <h3><i class="fa fa-hdd-o" aria-hidden="true"></i> Mining pools</h3>
-	                            <p>In the context of cryptocurrency mining, a mining pool is the pooling of resources by miners, who share their processing power over a network, to split the reward equally, according to the amount of work they contributed to solving a block. We offer <a href="#pools" data-toggle="tab">mining pools</a> for free. You can use cloud mining also.</p>
+	                            <p>In the context of cryptocurrency mining, a mining pool is the pooling of resources by miners, who share their processing power over a network, to split the reward equally, according to the amount of work they contributed to solving a block.</p>
 	                        </div>
 	                    </div>
 	                    <div class="row">
@@ -132,7 +127,7 @@
 	                        </div>
 	                        <div class="col-md-6">
 	                            <h3><i class="fa fa-briefcase" aria-hidden="true"></i></span> Wallets</h3>
-	                            <p>Wallet is a collection of private keys but may also refer to client software used to manage those keys and to make transactions on the Bitcoin network. Open <a href="https://cwallet.pro">ETH/TK wallet here</a>.</p>
+	                            <p>Wallet is a collection of private keys but may also refer to client software used to manage those keys and to make transactions on the Bitcoin network.</p>
 	                        </div>
 	                    </div>
 	                </div>
@@ -145,7 +140,7 @@
 	                                <form class="form-signin" role="form" action="javascript:;">
 	                                    <p>Use the form below to open a wallet and begin using this service.</p>
 	                                    <div class="alert alert-warning">
-	                                        <i class="fa fa-question-circle" aria-hidden="true"></i> Don't have Trezor device? <a href="https://buytrezor.com?a=3d2a3a212671" target="_blank">Buy one now! <i class="fa fa-external-link" aria-hidden="true"></i></a>
+	                                        <i class="fa fa-question-circle" aria-hidden="true"></i> Don't have Trezor device? <a href="https://trezor.io/?a=btc.horse" target="_blank">Buy one now! <i class="fa fa-external-link" aria-hidden="true"></i></a>
 	                                    </div>
 	                                    <input id="openEmail" type="text" class="form-control" placeholder="Username" required autofocus>
 	                                    <hr>
@@ -176,7 +171,6 @@
 	                                                <li role="presentation" class="active"><a href="javascript:;" id="walletBalance">0.00 BTC</a></li>
 	                                                <li role="presentation"><a href="javascript:;" id="walletShowSpend">Spend</a></li>
 	                                                <li role="presentation"><a id="walletHistory" href="javascript:;" target="_blank">History <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-	                                                <li role="presentation"><a href="https://coins.ph/invite/xytltg" target="_blank">Buy <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
 	                                                <li role="presentation"><a href="javascript:;" id="walletShowKeys">Keys</a></li>
 	                                            </ul>
 	                                            <br>
@@ -913,36 +907,6 @@
 						
 					</div>
 
-					<div class="tab-pane tab-content" id="pools">
-						<h2>Pools <small>we offer the pools for free</small></h2>
-						<div class="row">
-							<div class="col-md-4">
-								<div class="panel panel-info">
-									<div class="panel-heading">
-										<h3 class="panel-title">Litecoin pool</h3>
-									</div>
-									<div class="panel-body text-center">
-										<p><h1 class="pool-logo">Ł</h1></p>
-										<p>Zero fees</p>
-										<p>Anonymous</p>
-										<hr>
-										<p>Stratum: <kbd>sd</kbd></p>
-										<p>Port(s): <kbd>444</kbd></p>
-									</div>
-									<div class="panel-body text-center">
-										<a class="btn btn-primary btn-lg btn-block" href="https://unicorn.btc.horse" target="_blank">unicorn.btc.horse</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-
-							</div>
-							<div class="col-md-4">
-
-							</div>
-						</div>
-					</div>
-
 					<div class="tab-pane tab-content" id="settings">
 						<h2>Settings <small> customize application</small></h2>
 						<p>These simple settings below make this app one of the most decentralized wallets in the world.</p>
@@ -1053,7 +1017,7 @@
 		<div id="footer">
 			<div class="container text-right">
 	        		<p class="text-muted">
-	        			<a href="https://github.com/CSourceCode" target="_blank">Cryptocurrency Open Source community</a>
+	        			<a href="https://github.com/BTC-Horse/bitcoin-tool" target="_blank">Hosted on Github pages and mantained by BTC.Horse</a>
 	        		</p>
 			</div>
 		</div>
@@ -1152,7 +1116,6 @@
 						<div class="col-md-5">
 							<label>Mediator:</label>
 							<select id="mediatorList" class="form-control">
-								<!--<option value="02a21caef7f00bd4f1ea9292a23f218e06ba034a0c36314582c6b4f7e1aa4e6385;mediator@btc.horse;0.8">BTC.horse</option>-->
 								<option value="02b6231cc602740c29436eafbb6448880f4058cc3d2745c709deee313104678277;support@coinb.in;1">Coinb.in</option>
 							</select>
 						</div>
